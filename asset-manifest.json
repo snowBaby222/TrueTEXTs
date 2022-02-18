@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TrueTEXTs-React/static/css/main.4f561f11.css",
-    "main.js": "/TrueTEXTs-React/static/js/main.b7a5797e.js",
-    "static/js/787.719ec76d.chunk.js": "/TrueTEXTs-React/static/js/787.719ec76d.chunk.js",
-    "index.html": "/TrueTEXTs-React/index.html",
-    "main.4f561f11.css.map": "/TrueTEXTs-React/static/css/main.4f561f11.css.map",
-    "main.b7a5797e.js.map": "/TrueTEXTs-React/static/js/main.b7a5797e.js.map",
-    "787.719ec76d.chunk.js.map": "/TrueTEXTs-React/static/js/787.719ec76d.chunk.js.map"
+    "main.css": "/TrueTEXTs/static/css/main.4f561f11.css",
+    "main.js": "/TrueTEXTs/static/js/main.31cc56ca.js",
+    "static/js/787.719ec76d.chunk.js": "/TrueTEXTs/static/js/787.719ec76d.chunk.js",
+    "index.html": "/TrueTEXTs/index.html",
+    "main.4f561f11.css.map": "/TrueTEXTs/static/css/main.4f561f11.css.map",
+    "main.31cc56ca.js.map": "/TrueTEXTs/static/js/main.31cc56ca.js.map",
+    "787.719ec76d.chunk.js.map": "/TrueTEXTs/static/js/787.719ec76d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f561f11.css",
-    "static/js/main.b7a5797e.js"
+    "static/js/main.31cc56ca.js"
   ]
 }
