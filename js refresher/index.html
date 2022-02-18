@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        /*//"use strict";  //to ensure there is no bug in program
+        //js practice
+        let a = 24;
+        console.log(a);
+        function ahmad(){  //function
+            console.log("this is a function");
+        }
+        let raza = {  //object
+            r: 22,
+            p: 44,
+            func: function numFunc(val){
+                console.log("the value is "+val);
+            }
+        }
+
+        document.addEventListener("click", function click(){   //adding diiferent event to documnet
+            console.log("clicked");
+           // alert("you clicked")                     //alert msg
+           // let conf = confirm("are you sure?")        //confirmation msg
+            console.log(conf);
+        })
+
+        //array and loops
+        let arr_size = 4;
+        let arr = [2,5,6,4]; //array
+        for(let i= 0; i< arr_size; i++){  //for loop
+            console.log(arr[i]);
+        }
+        let j = 3;
+        while( j < arr_size){
+            console.log(arr[j])
+        }
+
+        //arrow function syntax
+        let myfunc = (val)=>{
+            console.log("the number is: "+this);
+        }
+        myfunc();
+
+        //arrow function in object
+        let myobj = {
+        myfunc : (val)=>{
+            console.log("the number is: " + this);
+            }
+        }
+        myobj.myfunc();
+
+        //**************************************
+
+        let myobj2 = {   //now from normal function(same process)
+            a: this,
+        myfunction : function (val){
+            console.log(this);
+            }
+        }
+        console.log(myobj.a);*/
+
+        //callback function
+        setTimeout(() => {
+            console.log("this called back 1st value")
+        }, 3000);     //3000 means callback is fired after 3 second
+        console.log("the second value");   //this will print first
+
+        
+
+    </script>
+</head>
+<body>
+    <h1>
+        click me!
+    </h1>
+</body>
+</html>
