@@ -47,7 +47,7 @@ function App() {
   </BrowserRouter>*/}
 
 <BrowserRouter>  {/*using react router*/}
-<Navbar title='TrueTEXT' home='Home' about='About Us' mode={mode} toggleMode={toggleMode}/>
+<Navbar title='TrueTEXTs' home='Home' about='About Us' mode={mode} toggleMode={toggleMode}/>
 <div className="container my-3">
     <Routes>
       <Route exact path="/" element={<TextForm heading='Analyze your text' textToAnalyze='Enter text to analyze:'/>}>
