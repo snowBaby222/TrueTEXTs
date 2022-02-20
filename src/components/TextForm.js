@@ -94,7 +94,7 @@ const toggleStyle =() =>{
 
   return (
       <>
-     <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
+       <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
       <input className="form-check-input" type="checkbox" onClick={props.toggleMode} role="switch" id="flexSwitchCheckChecked"/>
   <label className="form-check-label" htmlFor="flexSwitchCheckChecked">Dark Mode</label>
 </div>
